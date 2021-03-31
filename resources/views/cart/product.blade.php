@@ -7,9 +7,19 @@
 
 @if (Cart::count() > 0)
 <div class="px-4 px-lg-0 pt-0">
-        <div class="w-100 headerpanier">
-            <h1 class="text-center position-relative titrepanier text-white">PANIER</h1>
-        </div>
+
+
+<div id="wrapper">
+
+    <header class="content-overlay PagePP">
+
+        <h1 class="text-center cn">Panier</h1>
+
+    </header>
+
+</div>
+
+
         <div class="container pt-16">
             <div class="row">
                 <div class="col-lg-12 p-5 bg-white rounded30 shadow-sm mb-5">

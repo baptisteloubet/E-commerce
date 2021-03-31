@@ -33,8 +33,7 @@
         </div>
 
         <div class="form-group">
-            <label for="price">Prix : </label>
-            <input type="number" class="form-control @error('price') is-invalid @enderror" name="price" id="price" value ="{{$service->price}}"></input>
+            <input type="hidden" class="form-control @error('price') is-invalid @enderror" name="price" id="price" value ="{{$service->price}}"></input>
             @error('price')
             <div class="invalid-feedback">{{$errors->first('price')}}</div>
             @enderror

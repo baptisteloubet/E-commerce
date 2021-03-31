@@ -34,7 +34,7 @@
                             @enderror
                         </div>
                         <div class="form-group">
-                            <label for="price">Prix : </label>
+                            <label for="price">Prix (En centimes): </label>
                             <input type="number" class="form-control @error('price') is-invalid @enderror" name="price" id="price"></input>
                             @error('price')
                             <div class="invalid-feedback">{{$errors->first('price')}}</div>

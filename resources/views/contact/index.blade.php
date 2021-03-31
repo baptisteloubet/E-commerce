@@ -30,14 +30,14 @@
 
 <div class="space"></div>
 
-<body>
+<body class="bg-blue">
 
 
 
-    <div class="md:container md:mx-auto">
+    <div class="md:container md:mx-auto mb-8">
 
 
-        <form method="POST" action="{{ route('contact.store') }}">
+        <form method="POST" action="{{ route('contact.store') }}" class="col-lg-8 offset-lg-2">
 
             {{ csrf_field() }}
             <div class="row">
@@ -85,7 +85,7 @@
 
 
             <div class="form-group text-center">
-                <button class="btn-submit bg-green-500 font-semibold text-white p-2 w-32 rounded-full hover:bg-green-700 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2">Envoyer</button>
+                <button class="btn-submit bg-vert font-semibold text-white p-2 w-32 my-4 rounded-full hover:bg-green-700 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2">Envoyer</button>
             </div>
         </form>
 

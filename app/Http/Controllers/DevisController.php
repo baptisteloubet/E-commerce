@@ -25,8 +25,8 @@ class DevisController extends Controller
             'jours' => $service["service_0"][2],
             'mail' => Auth::user()->email,
             'name' => Auth::user()->name,
-            'calcul_jours' =>  $service["service_0"][2] *10,00,
-            'calcul_jours_tva' =>  $service["service_0"][2] *12,00,
+            'calcul_jours' =>  $service["service_0"][2] *100,00,
+            'calcul_jours_tva' =>  $service["service_0"][2] *120,00,
         ];
         
         $pdf = PDF::loadView('devis.pdf', $data );

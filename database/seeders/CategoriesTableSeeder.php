@@ -26,6 +26,5 @@ class CategoriesTableSeeder extends Seeder
         Category::create([
             'name' =>'Dechet organiques'
         ]);
-    
     }
 }

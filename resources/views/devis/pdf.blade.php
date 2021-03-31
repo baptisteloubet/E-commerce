@@ -94,7 +94,7 @@
         <tr>
             <td class="text-left"><div><strong>Temps de location </strong></div>
                 <p>Vous louez ce service pour une durée de {{$jours}} jours.</p></td>
-            <td class="text-center">{{$jours}} x 10,00 €</td>
+            <td class="text-center">{{$jours}} x 100,00 €</td>
             <td class="text-center">20%</td>
             <td class="text-right">{{$calcul_jours}},00 €</td>
         </tr>

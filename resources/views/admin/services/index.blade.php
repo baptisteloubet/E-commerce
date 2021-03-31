@@ -15,7 +15,6 @@
                     <thread>
                         <tr>
                         <th scope ="col">Nom</th>
-                        <th scope ="col">Prix</th>
                         <th scope ="col">Actions</th>
                         </tr>
                     </thread>
@@ -23,7 +22,6 @@
                    @foreach ($services as $service)
                         <tr>
                         <td>{{$service->title}}</td>
-                        <td>{{$service->getPrice()}}</td>
                         <td>
                             <a href="{{route('services.show', $service)}}" class=" btn btn-primary">Voir</a>
                             <a href="{{route('service.edit', $service)}}" class=" btn btn-warning">Modifier</a>

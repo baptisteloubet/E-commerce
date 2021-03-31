@@ -47,7 +47,7 @@ class CheckoutController extends Controller
 
 
         $payment_intent = PaymentIntent::create([
-            'amount' => round(Cart::total()),
+            'amount' => '2000',
             'currency' => 'eur',
             'description' => 'Nouveau paiement de client ',
             'payment_method_types' => ['card'],
